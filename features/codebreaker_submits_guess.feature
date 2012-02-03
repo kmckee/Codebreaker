@@ -48,7 +48,7 @@ Feature: code-breaker submits guess
 
     Scenarios: matches with duplicates 
       | code | guess | mark | 
-      | 1234 | 1155  | +A   | 
+      | 1234 | 1155  | +    | 
       | 1234 | 5115  | -    | 
       | 1134 | 1155  | ++   | 
       | 1134 | 5115  | +-   |
